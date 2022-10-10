@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&family=Signika+Negative:wght@500&family=Silkscreen&display=swap');
+
+html {
+    background: url(Lab01Background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    text-align: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background: goldenrod;
+    padding-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+nav a:link,
+nav a:visited {
+    color: black;
+}
+
+nav a:active,
+nav a:hover {
+    color: red;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Signika Negative', sans-serif;
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: darkgray;
+    font-size: 25px;
+}
+
+section {
+    padding-top: 20px;
+}
+
+image {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+#EdmontonSky {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid darkgray;
+}
+
+#PortfolioList {
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.PortfolioImages {
+    display: block;
+    width: 90%;
+    height: fit-content;
+}
+
+#PortfolioList .CssCreations:link,
+#PortfolioList .CssCreations:visited {
+    color: goldenrod;
+}
+
+#PortfolioList .CssCreations:active,
+#PortfolioList .CssCreations:hover {
+    color: red;
+}
+
+#Skills {
+    text-align: left;
+}
+
+#Skills ul {
+    font-size: 20px;
+    color: goldenrod;
+}
+
+#Skills h2 {
+    margin-left: 10px;
+    color: goldenrod;
+}
+
+ul {
+    list-style-type: disc;
+    font-family: 'Silkscreen', cursive;
+    font-size: 25px;
+    color: darkgray;
+}
+
+
+li {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    background: gray;
+}
+
+
+address a:hover,
+address a:active {
+    color: red;
+}
+
+#GalleryPage header,
+#GalleryPage footer {
+    min-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#CSSBattleLink:link,
+#CSSBattleLink:visited {
+    color: goldenrod;
+}
+
+#CSSBattleLink:hover,
+#CSSBattleLink:active {
+    color: red;
+}
+
+#CSSGallery {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-flow: row;
+    row-gap: 30px;
+    place-content: center;
+    place-items: center;
+}
+
+#PushButton {
+    height: 300px;
+    width: 300px;
+    background: #6592CF;
+    border: 10px solid;
+    border-image: linear-gradient(90deg, #243D83, #6592CF, #EEB850, #6592CF, #243D83) 10;
+}
+
+#square {
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 150px;
+    background: #243D83;
+}
+
+#outer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: #6592CF;
+    transform: translateY(-200px);
+}
+
+#middle {
+    margin-right: auto;
+    margin-left: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #243D83;
+    transform: translateY(-400px);
+}
+
+#inner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #EEB850;
+    transform: translateY(-500px);
+}
+
+#UpsNDowns {
+    background: #62306D;
+    width: 300px;
+    height: 300px;
+    border: 10px solid;
+    border-image: linear-gradient(90deg, #62306D, #F7EC7D, #62306D) 10;
+
+}
+
+#OneDown {
+    width: 75px;
+    height: 100px;
+    border-radius: 0% 0% 100% 100%;
+    margin-left: 38px;
+    transform: translateY(142px);
+    background: #F7EC7D
+}
+
+#TwoUp {
+    width: 75px;
+    height: 100px;
+    border-radius: 100% 100% 0% 0%;
+    margin-left: 113px;
+    transform: translateY(-58px);
+    background: #F7EC7D
+}
+
+#ThreeDown {
+    width: 75px;
+    height: 100px;
+    border-radius: 0% 0% 100% 100%;
+    margin-left: 188px;
+    transform: translateY(-58px);
+    background: #F7EC7D
+}
+
+#AcidRain {
+    background: #0B2429;
+    width: 300px;
+    height: 300px;
+    border: 10px solid;
+    border-image: linear-gradient(45deg, #F3AC3C, #998235, #998235, #F3AC3C) 10;
+}
+
+#CircleRain {
+    width: 120px;
+    height: 120px;
+    margin-left: 144px;
+    margin-top: 30px;
+    border-radius: 100%;
+    background: #F3AC3C;
+}
+
+#MiddleRain {
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-60px);
+    border-radius: 100% 0% 100% 100%;
+    background: #998235;
+}
+
+#BottomRain {
+    width: 120px;
+    height: 120px;
+    border-radius: 100% 0% 100% 100%;
+    margin-left: 54px;
+    transform: translateY(-120px);
+    background: #F3AC3C;
+}
+
+#LeafyTrail {
+    background: #0B2429;
+    width: 300px;
+    height: 300px;
+    border: 10px solid;
+    border-image: linear-gradient(90deg, #1A4341, #998235, #F3AC3C) 10;
+}
+
+#LeftLeaf {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 67px;
+    border-radius: 66% 0%;
+    background: #1A4341;
+}
+
+#MiddleLeaf {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 88px;
+    margin-top: 67px;
+    border-radius: 66% 0%;
+    background: #998235;
+}
+
+#RightLeaf {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 125px;
+    margin-top: 67px;
+    border-radius: 66% 0%;
+    background: #F3AC3C;
+}
+
+@media screen and (min-width : 800px) {
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 70px;
+    }
+
+    nav {
+        font-size: 30px;
+        color: black;
+    }
+
+    #EdmontonSky {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        max-height: 60vh;
+        max-width: 100vw;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+    ul {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    li {
+        font-size: 50px;
+    }
+
+    #Skills h2 {
+        margin-left: 30px;
+    }
+
+    #CSSBattleLink:link {
+        font-size: 30px;
+    }
+
+    #CSSGallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        column-gap: 20px;
+    }
+
+    #PushButton {
+        width: 400px;
+
+    }
+
+    #square {
+        width: 400px;
+    }
+
+    #UpsNDowns {
+        width: 400px;
+
+    }
+
+    #OneDown {
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    #TwoUp {
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #ThreeDown {
+        width: 100px;
+        margin-left: 250px;
+    }
+
+    #AcidRain {
+        width: 400px;
+    }
+
+    #CircleRain {
+        width: 120px;
+        margin-left: 192px;
+    }
+
+    #BottomRain {
+        width: 120px;
+        margin-left: 72px;
+    }
+
+    #LeafyTrail {
+        width: 400px;
+    }
+
+    #LeftLeaf {
+        width: 150px;
+        margin-left: 67px;
+    }
+
+    #MiddleLeaf {
+        width: 150px;
+        margin-left: 117px;
+    }
+
+    #RightLeaf {
+        width: 150px;
+        margin-left: 167px;
+    }
+}

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&family=Signika+Negative:wght@500&family=Silkscreen&display=swap');
+
 html {
     background: url(Lab01Background.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -87,6 +88,7 @@ image {
     font-family: 'Silkscreen', cursive;
     font-size: 30px;
 }
+
 .PortfolioImages {
     display: block;
     width: 90%;
@@ -119,7 +121,7 @@ image {
 
 ul {
     list-style-type: disc;
-    
+
     font-size: 25px;
     color: darkgray;
 }
@@ -166,6 +168,7 @@ address a:active {
     row-gap: 30px;
     place-content: center;
     place-items: center;
+    margin-bottom: 40px;
 }
 
 #PushButton {
@@ -325,6 +328,100 @@ address a:active {
     background: #F3AC3C;
 }
 
+#Fork {
+    background: #6592CF;
+    width: 300px;
+    height: 300px;
+    border: 10px solid;
+    border-image: linear-gradient(90deg, #6592CF, #060F55, #6592CF) 10;
+}
+
+.Gaps {
+    width: 20px;
+    height: 50px;
+    background: #6592CF;
+    border-radius: 0% 0% 20px 20px;
+    margin-left: 16px;
+    display: inline-block;
+}
+
+.Ends {
+    width: 20px;
+    height: 50px;
+    background: #060F55;
+    border-radius: 20px 20px 0% 0%;
+    margin-left: 16px;
+    display: inline-block;
+}
+
+#Prongs {
+    width: 140px;
+    height: 70px;
+    background: repeating-linear-gradient(to right,
+            #060F55 0px,
+            #060F55 20px,
+            #6592CF 20px,
+            #6592CF 40px);
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(8px) translateY(-80px);
+}
+
+#Handle {
+    width: 20px;
+    height: 125px;
+    background: #060F55;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(8px) translateY(-103px);
+}
+
+#Bottom {
+    width: 140px;
+    height: 100px;
+    border-radius: 0% 0% 100px 100px;
+    background: #060F55;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(8px) translateY(-80px);
+}
+
+#Tesseract {
+    background: #222730;
+    width: 300px;
+    height: 300px;
+    border: 10px solid;
+    border-image: linear-gradient(0deg, #222730, #4CAAB3, #222730) 10;
+}
+
+#Banner {
+    width: 100%;
+    height: 150px;
+    background: #4CAAB3;
+    margin-top: 75px;
+}
+
+#Outer-Square {
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg) translateY(-160px) translateX(-90px);
+    background: #222730;
+}
+
+#Middle-Square {
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg) translateY(-300px) translateX(-200px);
+    background: #4CAAB3;
+}
+
+#Center-Circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    transform: translateY(-452px) translateX(122px);
+    background: #393E46;
+}
 
 @media screen and (min-width : 800px) {
 
@@ -340,7 +437,7 @@ address a:active {
         font-size: 30px;
         color: black;
     }
-    
+
     #PortfolioList .CSSCreations {
         font-size: 70px;
     }
@@ -377,7 +474,7 @@ address a:active {
     #CSSGallery {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        column-gap: 20px;
+        column-gap: 40px;
     }
 
     #PushButton {
@@ -442,5 +539,30 @@ address a:active {
         width: 150px;
         margin-left: 167px;
     }
-}
+
+    #Fork {
+        width: 400px;
+    }
+
+    #Tesseract {
+        width: 400px;
+    }
+
+    #Banner {
+        width: 400px;
+        height: 150px;
+        background: #4CAAB3;
+    }
+
+    #Outer-Square {
+        transform: rotate(45deg) translateY(-200px) translateX(-50px);
+    }
+
+    #Middle-Square {
+        transform: rotate(45deg) translateY(-340px) translateX(-160px);
+    }
+
+    #Center-Circle {
+        transform: rotate(45deg) translateY(-444px) translateX(-194px);
+    }
 }

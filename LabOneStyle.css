@@ -340,6 +340,10 @@ address a:active {
         font-size: 30px;
         color: black;
     }
+    
+    #PortfolioList .CSSCreations {
+        font-size: 70px;
+    }
 
     #EdmontonSky {
         margin-left: auto;

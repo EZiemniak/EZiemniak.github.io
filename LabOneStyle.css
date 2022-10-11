@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&family=Signika+Negative:wght@500&family=Silkscreen&display=swap');
-
 html {
     background: url(Lab01Background.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -84,19 +83,23 @@ image {
     text-align: left;
 }
 
+#PortfolioList .CSSCreations {
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+}
 .PortfolioImages {
     display: block;
     width: 90%;
     height: fit-content;
 }
 
-#PortfolioList .CssCreations:link,
-#PortfolioList .CssCreations:visited {
+#PortfolioList .CSSCreations:link,
+#PortfolioList .CSSCreations:visited {
     color: goldenrod;
 }
 
-#PortfolioList .CssCreations:active,
-#PortfolioList .CssCreations:hover {
+#PortfolioList .CSSCreations:active,
+#PortfolioList .CSSCreations:hover {
     color: red;
 }
 
@@ -116,7 +119,7 @@ image {
 
 ul {
     list-style-type: disc;
-    font-family: 'Silkscreen', cursive;
+    
     font-size: 25px;
     color: darkgray;
 }
@@ -322,6 +325,7 @@ address a:active {
     background: #F3AC3C;
 }
 
+
 @media screen and (min-width : 800px) {
 
     h1 {
@@ -434,4 +438,5 @@ address a:active {
         width: 150px;
         margin-left: 167px;
     }
+}
 }
